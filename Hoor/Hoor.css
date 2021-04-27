@@ -1,0 +1,39 @@
+
+body{
+    /* background: center/contain fixed url(mrbl.jpg); */
+    background-color: whitesmoke;
+}
+
+
+.navbar{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.gallery img{
+        height: 300px;
+        object-fit: cover;
+        /* width: 1425px !important; */
+}
+
+.carousel-caption {
+    position: absolute;;
+    /* z-index: 1; */
+    /* display:table; */
+    width:65%;
+    height:90%;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.356);
+    padding-top: 50px;
+}
+.carousel-caption h2{
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+
